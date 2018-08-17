@@ -1,4 +1,4 @@
-FROM php:7.1.20-apache-stretch
+FROM php:7.2-apache-stretch
 
 ADD root/ /
 # Fix the original permissions of /tmp, the PHP default upload tmp dir.
